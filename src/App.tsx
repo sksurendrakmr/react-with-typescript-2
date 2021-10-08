@@ -1,7 +1,10 @@
 import React from "react";
 import { Greet } from "./component/Greet";
+import { Heading } from "./component/Heading";
+import { Oscar } from "./component/Oscar";
 import { Person } from "./component/Person";
 import { PersonList } from "./component/PersonList";
+import { Status } from "./component/Status";
 
 function App() {
   const name = {
@@ -26,8 +29,15 @@ function App() {
   return (
     <>
       <Greet name='surendra' messageCount={10} isLoggedIn={false} />
+      <Greet name='surendra' isLoggedIn={false} />
       <Person name={name} />
       <PersonList names={nameList} />
+      <Status status='success' />
+
+      <Heading>Placeholder text</Heading>
+      <Oscar>
+        <Heading>Oscar goes to Leonardo Dicpario!</Heading>
+      </Oscar>
     </>
   );
 }
