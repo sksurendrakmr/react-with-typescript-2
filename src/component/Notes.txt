@@ -1,0 +1,20 @@
+Why Typscript with react?
+
+=>  With static type checking, we get to learn about potential
+    bugs as we are typing the code, than heading to the browser and
+    figurng out at runtime.
+
+=>  Provides a way to describe the shape of an object hence providing better
+    documentation and autocomplete.
+
+=>  Makes maintenence and refactoring of large code bases much easier.
+
+But we have to warite a lot more code than we normally do and the compiler
+keeps complaining. I simply don't know what to do about those errors.
+It doesn't seem to be productive for us?
+Ans. Practice more..
+
+Type inference
+Typescript will automatically try to assign the type and 
+we only have to intervene when typescript needs a little bit of help.
+
