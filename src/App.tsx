@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./component/Button";
+import { Container } from "./component/Container";
 import { Greet } from "./component/Greet";
 import { Heading } from "./component/Heading";
 import { Input } from "./component/Input";
@@ -56,6 +57,9 @@ function App() {
       {/* Event props */}
       <Button handleClick={handleClick} />
       <Input value='' handleChange={handleChange} />
+
+      {/* CSS Props */}
+      <Container styles={{ border: "1px solid black", padding: "1rem" }} />
     </>
   );
 }
