@@ -18,3 +18,5 @@ Type inference
 Typescript will automatically try to assign the type and 
 we only have to intervene when typescript needs a little bit of help.
 
+Types vs Interfaces
+use Types when building application and Interfaces when building libraries.
